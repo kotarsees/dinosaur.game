@@ -1,0 +1,123 @@
+.barrier1{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url(images/kust.png);
+  background-size: 100%;
+  top: 530px;
+  left: -100px;
+}
+.barrier2{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url(images/kaktus.png);
+  background-size: 100%;
+  top: 524px;
+  left: -100px;
+}
+.barrier3{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url(images/kaktus.png);
+  background-size: 100%;
+  top: 524px;
+  left: -100px;
+}
+@keyframes barrierMove1{/*Для первого барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes barrierMove2{/*Для второго барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes barrierMove3{/*Для третьего барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes barrierMove4{/*Для четвертого барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes barrierMove1L2{/*Для первого барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes barrierMove2L2{/*Для второго барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes barrierMove3L2{/*Для третьего барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes barrierMove4L2{/*Для четвертого барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes barrierMove1L3{/*Для первого барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes barrierMove2L3{/*Для второго барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes barrierMove3L3{/*Для третьего барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes barrierMove4L3{/*Для четвертого барьера*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}

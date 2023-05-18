@@ -1,0 +1,49 @@
+.dinozavr{
+  position: absolute;
+  top: 500px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+  transition-property: top;
+  transition-duration: .35s;
+  transition-timing-function: ease-in-out;
+}
+.dino{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-image: url(images/dinozavr.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  animation-play-state: paused;
+}
+@keyframes dinoRunSeat {
+  from{
+    background-image: url(images/dinozavrR-Seat.png);
+  }
+  50%{
+    background-image: url(images/dinozavrL-Seat.png);
+  }
+  to{
+    background-image: url(images/dinozavrR-Seat.png);
+  }
+}
+@keyframes dinoRun {
+  from{
+    background-image: url(images/dinozavrR.png);
+  }
+  50%{
+    background-image: url(images/dinozavrL.png);
+  }
+  to{
+    background-image: url(images/dinozavrR.png);
+  }
+}
+@keyframes dinoDie {
+  from{
+    background-image: url(images/dinozavrDie.png);
+  }
+  to{
+    background-image: url(images/dinozavrDie.png);
+  }
+}

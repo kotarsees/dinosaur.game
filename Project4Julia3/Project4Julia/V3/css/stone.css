@@ -1,0 +1,42 @@
+.stone{
+  display: flex;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url(images/stone.png);
+  background-size: 100%;
+  top: 525px;
+  left: -200px;
+}
+@keyframes stoneMove1{
+  from{
+    top: 0px;
+    left: 1600px;
+  }
+  77%{
+    top: 455px;
+  }
+  89%{
+    top: 525px;
+  }
+  to{
+    top: 525px;
+    left: -200px;
+  }
+}
+@keyframes stoneMove2{
+  from{
+    top: 0px;
+    left: 1600px;
+  }
+  77%{
+    top: 455px;
+  }
+  89%{
+    top: 525px;
+  }
+  to{
+    top: 525px;
+    left: -200px;
+  }
+}

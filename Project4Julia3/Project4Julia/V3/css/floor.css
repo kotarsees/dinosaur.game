@@ -1,0 +1,54 @@
+.floor{
+  position: absolute;
+  top: 590px;
+  width: 5666px;
+  height: 300px;
+  background-image: url(images/map.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  animation: map 11.57s linear infinite paused;
+}
+.floor2{
+  display: none;
+  position: absolute;
+  top: 590px;
+  width: 5666px;
+  height: 300px;
+  background-image: url(images/map.png);
+  background-size: 100%;
+  animation: map2 8.1s linear infinite paused;
+}
+.floor3{
+  display: none;
+  position: absolute;
+  top: 590px;
+  width: 5666px;
+  height: 300px;
+  background-image: url(images/map.png);
+  background-size: 100%;
+  animation: map3 6.94s linear infinite paused;
+}
+@keyframes map{
+  from{
+    left: 0px;
+  }
+  to{
+    left: -4166px;
+  }
+}
+@keyframes map2{
+  from{
+    left: 0px;
+  }
+  to{
+    left: -4166px;
+  }
+}
+@keyframes map3{
+  from{
+    left: 0px;
+  }
+  to{
+    left: -4166px;
+  }
+}

@@ -1,0 +1,83 @@
+@import url(dinozavr.css);
+@import url(cloud.css);
+@import url(barrier.css);
+@import url(score.css);
+@import url(stone.css);
+@import url(floor.css);
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(0.75);
+}
+
+
+.contener{
+  display: flex;
+  position: absolute;
+  margin: auto;
+  width: 1500px;
+  height: 800px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+.restart{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 650px;
+  top: 300px;
+  background-image: url(images/restart.png);
+  background-size: 100%;
+}
+.gameOver{
+  position: absolute;
+  width: 1200px;
+  height: 150px;
+  background-image: url(images/GameOver.png);
+  background-size: 100%;
+  top: 150px;
+  left: 150px;
+}
+.countSc{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 1300px;
+  top: 70px;
+  width: 225px;
+  height: 75px;
+  margin-left: auto;
+  margin-right: 0px;
+}
+.flower{
+  position: relative;
+  top: -5px;
+  width: 60px;
+  height: 60px;
+  background-image: url(images/00.png);
+  background-size: 100%;
+}
+.firstPic{
+  width: 50px;
+  height: 50px;
+  background-image: url(images/0.png);
+  background-size: 100%;
+}
+.lastPic{
+  position: relative;
+  left: -10px;
+  width: 50px;
+  height: 50px;
+  background-image: url(images/0.png);
+  background-size: 100%;
+}
+@keyframes rest{
+  from{
+    left: 1600px;
+  }
+  top{
+    left: 1600px;
+  }
+}

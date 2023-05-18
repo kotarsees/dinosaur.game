@@ -1,0 +1,151 @@
+.cloud1{
+  display: flex;
+  position: absolute;
+  left: 1500px;
+  top: 100px;
+  width: 150px;
+  height: 150px;
+  background-image: url(images/cloud.png);
+  background-size: 100%;
+}
+.cloud2{
+  display: flex;
+  position: absolute;
+  left: 1500px;
+  top: 100px;
+  width: 150px;
+  height: 150px;
+  background-image: url(images/cloud.png);
+  background-size: 100%;
+}
+.cloud3{
+  display: flex;
+  position: absolute;
+  left: 1500px;
+  top: 100px;
+  width: 150px;
+  height: 150px;
+  background-image: url(images/cloud.png);
+  background-size: 100%;
+}
+
+@keyframes cloudMove1{/*Для первого облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove2{/*Для второго облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove3{/*Для третьего облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove4{/*Для четвертого облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove5{/*Для пятого облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove1L2{/*Для первого облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove2L2{/*Для второго облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove3L2{/*Для третьего облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove4L2{/*Для четвертого облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove5L2{/*Для пятого облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove1L3{/*Для первого облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove2L3{/*Для второго облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove3L3{/*Для третьего облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove4L3{/*Для четвертого облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes cloudMove5L3{/*Для пятого облака*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}

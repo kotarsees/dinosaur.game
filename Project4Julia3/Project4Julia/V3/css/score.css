@@ -1,0 +1,126 @@
+.score1{
+  display: flex;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url(images/score.png);
+  background-size: 100%;
+  top: 520px;
+  left: -100px;
+}
+.score2{
+  display: flex;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url(images/flow1.png);
+  background-size: 100%;
+  top: 520px;
+  left: -100px;
+}
+.score3{
+  display: flex;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url(images/flow2.png);
+  background-size: 100%;
+  top: 520px;
+  left: -100px;
+}
+@keyframes scoreMove1 {/*Для первого цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes scoreMove2 {/*Для второго цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes scoreMove3 {/*Для третьего цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes scoreMove4 {/*Для четвертого цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes scoreMove1L2 {/*Для первого цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes scoreMove2L2 {/*Для второго цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes scoreMove3L2 {/*Для третьего цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes scoreMove4L2 {/*Для четвертого цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes scoreMove1L3 {/*Для первого цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes scoreMove2L3 {/*Для второго цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes scoreMove3L3 {/*Для третьего цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
+@keyframes scoreMove4L3 {/*Для четвертого цветка*/
+  from{
+    left: 1600px;
+  }
+  to{
+    left: -200px;
+  }
+}
